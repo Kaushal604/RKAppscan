@@ -41,6 +41,7 @@ jobs:
           cd appscan-issue-gateway
           ls -ltr
           mv ../../*.sh .
+          mv ../../*.json
           chmod 775 *.sh
           ls -ltr
           nohup ./appscangateway.sh 2>/dev/null &
