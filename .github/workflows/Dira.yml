@@ -45,6 +45,9 @@ jobs:
           ls -ltr
       - name: Run Gatewayscript
         run: nohup ./appscangateway.sh 2>/dev/null &
+      - name: Jira Tracker
+        run: |
+          sh ./postjob.sh data.json
              
 
 
