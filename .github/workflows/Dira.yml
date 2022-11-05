@@ -44,7 +44,11 @@ jobs:
           chmod 775 *.sh
           ls -ltr
           nohup ./appscangateway.sh 2>/dev/null &
-          sh ./postjob.sh data.json
+      - name: Run a multi-line script
+        run: |
+           cd appscan-issue-gateway-0.3.1/appscan-issue-gateway
+           ls -ltra
+           sh ./postjob.sh data.json
      
           
              
