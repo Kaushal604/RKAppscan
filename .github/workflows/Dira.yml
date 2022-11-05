@@ -43,6 +43,7 @@ jobs:
           cd appscan-issue-gateway
           ls -ltr
           mv ../../*.sh .
+          ls -ltr
 
 
 
