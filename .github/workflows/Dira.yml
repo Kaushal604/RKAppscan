@@ -47,6 +47,8 @@ jobs:
         run: nohup ./appscangateway.sh 2>/dev/null &
       - name: Jira Tracker
         run: |
+          ls -ltra
+          chmod 777 *.sh
           sh ./postjob.sh data.json
              
 
