@@ -41,7 +41,7 @@ jobs:
           cd appscan-issue-gateway-0.3.1
           chmod -R 775 appscan-issue-gateway
           cd appscan-issue-gateway
-          java -Dserver.port=4444 -jar appscan-issue-gateway.jar
+          ls -ltr
 
 
 
