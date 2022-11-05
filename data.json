@@ -1,0 +1,43 @@
+{
+   "appscanData":{
+      "appscanProvider":"Asoc",
+      "url":"https://cloud.appscan.com/",
+      "apikeyid":"4e5a52c3-5867-347f-a57d-eb9e1dcab8a8",
+      "apikeysecret":"pxK2xLWo1ELQIjJnk2kvQyr9x24moz6G1JO0qDVlm2I=",
+      "appid":"e708a9ec-83aa-43b8-bac3-4ca069b12df3",
+      "issuestates":"New,Open",
+      "maxissues":1,
+      "includeIssuefilters":{
+
+      },
+      "excludeIssuefilters":{
+
+      },
+      "other":{
+
+      }
+   },
+   "imData":{
+      "provider":"jira",
+      "config":{
+         "url":"https://kaushal604.atlassian.net",
+         "username":"er.rajesh604@gmail.com",
+         "password":"G7U9f7HrfN83qn2SZQ8T9257",
+         "projectkey":"AP",
+
+         "summary":"Security issue: %IssueType% found by %Scanner%",
+         "severitymap":{
+            "High":"High",
+            "Medium":"High",
+            "Low":"Low",
+            "Informational":"Low"
+         },
+         "otherfields":{
+            "labels":[
+               "appscan",
+               "security"
+            ]
+         }
+      }
+   }
+}
