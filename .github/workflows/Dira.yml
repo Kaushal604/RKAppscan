@@ -34,12 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-           wget https://github.com/HCL-TECH-SOFTWARE/appscan-issue-gateway/releases/download/v0.3.1/appscan-issue-gateway-0.3.1.zip
-           unzip appscan-issue-gateway-0.3.1.zip
-           cd appscan-issue-gateway
-           chmod -R 775 appscan-issue-gateway
-           cd appscan-issue-gateway-0.3.1/appscan-issue-gateway/
-           java -Dserver.port=4444 -jar appscan-issue-gateway.jar
+          wget https://github.com/HCL-TECH-SOFTWARE/appscan-issue-gateway/releases/download/v0.3.1/appscan-issue-gateway-0.3.1.zip
+          unzip appscan-issue-gateway-0.3.1.zip
+          cd /root/appscan-issue-gateway-0.3.1/appscan-issue-gateway
+          chmod -R 775 /root/appscan-issue-gateway-0.3.1/appscan-issue-gateway
+          java -Dserver.port=4444 -jar appscan-issue-gateway.jar
 
 
 
