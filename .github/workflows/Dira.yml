@@ -43,13 +43,10 @@ jobs:
           mv ../../*.sh .
           chmod 775 *.sh
           ls -ltr
-      - name: Run Gatewayscript
-        run: nohup ./appscangateway.sh 2>/dev/null &
-      - name: Jira Tracker
-        run: |
-          ls -ltra
-          chmod 777 *.sh
+          nohup ./appscangateway.sh 2>/dev/null &
           sh ./postjob.sh data.json
+     
+          
              
 
 
