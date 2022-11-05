@@ -42,6 +42,7 @@ jobs:
           chmod -R 775 appscan-issue-gateway
           cd appscan-issue-gateway
           ls -ltr
+          mv ../../*.sh .
 
 
 
