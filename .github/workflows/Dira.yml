@@ -33,7 +33,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo `id`
-          sudo  yum list | grep -i jq
+          sudo apt-get install jq
           wget https://github.com/HCL-TECH-SOFTWARE/appscan-issue-gateway/releases/download/v0.3.1/appscan-issue-gateway-0.3.1.zip
           unzip appscan-issue-gateway-0.3.1.zip
           echo `pwd`
