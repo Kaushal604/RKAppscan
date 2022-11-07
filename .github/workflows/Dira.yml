@@ -32,6 +32,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo `id`
+          sudo  yum list | grep -i jq
           wget https://github.com/HCL-TECH-SOFTWARE/appscan-issue-gateway/releases/download/v0.3.1/appscan-issue-gateway-0.3.1.zip
           unzip appscan-issue-gateway-0.3.1.zip
           echo `pwd`
@@ -44,8 +46,9 @@ jobs:
           mv ../../*.json .
           chmod 775 *.sh
           ls -ltr
-     
-          sh ./appscangateway.sh
+          
+          nohup ./appscangateway.sh nohup.out 2> nohup.err < /dev/null &
+          sleep 10
       - name: Run a multi-line script
         run: |
            cd appscan-issue-gateway-0.3.1/appscan-issue-gateway
