@@ -53,7 +53,12 @@ jobs:
         run: |
            cd appscan-issue-gateway-0.3.1/appscan-issue-gateway
            ls -ltra
-           sh ./postjob.sh data.json
+           sh ./postjob.sh data.json > RK.txt
+           cat RK.txt
+           sed -n '2p' RK.txt | cut -d "\"" -f 4 > DK.txt
+           cat DK.txt
+           ./getjob.sh `cat DK.txt`
+           
      
           
              
