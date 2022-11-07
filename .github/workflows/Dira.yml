@@ -61,7 +61,7 @@ jobs:
            ls -ltr
            cat DK.txt
            echo " Kaushal Checked"
-           ./getjob.sh `cat DK.txt`
+           sh ./getjob.sh `cat DK.txt`
            
      
           
