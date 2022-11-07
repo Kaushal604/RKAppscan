@@ -2,9 +2,9 @@
    "appscanData":{
       "appscanProvider":"Asoc",
       "url":"https://cloud.appscan.com/",
-      "apikeyid":"4e5a52c3-5867-347f-a57d-eb9e1dcab8a8",
-      "apikeysecret":"SXjPczstbyyONsYgQqhcBRh8MyqCjdF6M7NIWr8ffFs=",
-      "appid":"e708a9ec-83aa-43b8-bac3-4ca069b12df3",
+      "apikeyid":"43f6b8bd-624a-41ab-f514-254d0c20d21c",
+      "apikeysecret":"JVcDBMHspoJy7QJd9ZWQq4mM+afRGVYqnk3s6NCluwg=",
+      "appid":"a79ed42b-7548-4e50-b709-d948d43d582d",
       "issuestates":"New,Open",
       "maxissues":1,
       "includeIssuefilters":{
@@ -22,7 +22,7 @@
       "config":{
          "url":"https://kaushal604.atlassian.net",
          "username":"er.rajesh604@gmail.com",
-         "password":"YucEa4mN8wsQHtqYvJ9E56F9",
+         "password":"i4MlmYCX13AR7AJlW17TE421",
          "projectkey":"AP",
 
          "summary":"Security issue: %IssueType% found by %Scanner%",
