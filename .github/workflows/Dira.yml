@@ -54,9 +54,13 @@ jobs:
            cd appscan-issue-gateway-0.3.1/appscan-issue-gateway
            ls -ltra
            sh ./postjob.sh data.json > RK.txt
+           ls -ltr
            cat RK.txt
+           echo "Kaushal Check"
            sed -n '2p' RK.txt | cut -d "\"" -f 4 > DK.txt
+           ls -ltr
            cat DK.txt
+           echo " Kaushal Checked"
            ./getjob.sh `cat DK.txt`
            
      
